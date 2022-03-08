@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Night_Patrolling_Robot.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in [4]
+
+Done.
+You've used 16 entries,
+            4087 wiz_defined-function locations,
+            897 strings with 10150 characters,
+and the built_in function-call counts, 7439 in all, are:
+= -- 561
+> -- 238
+< -- 6
++ -- 112
+- -- 56
+* -- 352
+:= -- 1300
+add.period$ -- 32
+call.type$ -- 16
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 637
+empty$ -- 643
+format.name$ -- 70
+if$ -- 1646
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 126
+newline$ -- 71
+num.names$ -- 16
+pop$ -- 338
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 557
+stack$ -- 0
+substring$ -- 16
+swap$ -- 377
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 16
+warning$ -- 1
+while$ -- 16
+width$ -- 18
+write$ -- 155
+(There was 1 warning)

@@ -1,0 +1,219 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage[all]{nowidow}
+\usepackage[none]{hyphenat}
+
+% \usepackage[switch  ]{lineno}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+% \linenumbers
+
+\title{Night Patrolling Robot with Facial Recognition}
+
+\author{
+	\IEEEauthorblockN{
+		Manisha Dhage\IEEEauthorrefmark{1}
+		Vivek Ghuge\IEEEauthorrefmark{2},\\
+		Divija Godse\IEEEauthorrefmark{3},
+		Mitrajeet Golsangi\IEEEauthorrefmark{4},
+		Pravin Harne\IEEEauthorrefmark{5},
+	}
+	\IEEEauthorblockA{
+		\textit{dept. of Computer Science} \\
+		\textit{Vishwakarma Institute of Technology}\\
+		Pune, India\\
+		Email : \IEEEauthorrefmark{1}manisha.dhage@vit.edu,
+		\IEEEauthorrefmark{2}vivekghuge2002@gmail.com,
+		\IEEEauthorrefmark{3}divijagodse@gmail.com,
+		\IEEEauthorrefmark{4}mitrajeetgolsangi@gmail.com,
+		\IEEEauthorrefmark{5}sunnyharne008@gmail.com,
+	}
+}
+
+\maketitle
+
+\begin{abstract}
+	Abstract Here
+\end{abstract}
+
+\begin{IEEEkeywords}
+	Keywords
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\section{Literature Review}
+One of the most important needs of modern times is
+security. The rise in population is directly proportional
+to the need for proper security. A night patrolling
+visionary robot would help achieve certainty, especially
+during the night. All the research papers have directed
+to the fact that the basic must-haves for the night
+patrolling systems are the logic for sound sensing,
+moving towards the area of target and back to the
+original location, image capturing and processing.\\
+
+The night vision patrolling robot has the primary
+objective to ensure the safety of the people without
+putting any human life at risk. There are certain
+essential features needed in the robot, such as a night
+vision, obstacle detection, and motor driver circuits
+for controlling them\cite{[1]}. All of these are controlled
+using a microcontroller board such as an Arduino UNO
+or raspberry pi. In addition, a wireless IR transceiver
+would be helpful in the navigation of the robot\cite{[3]}.
+According to \cite{[1]} the proposed system has the best
+advantage over disadvantage ratio if it uses an IR
+Camera with a wireless controller and some form of
+an obstacle detection system. Furthermore, optional
+features such as a GPS Module, GSM radios \cite{[3]}, sound
+sensor\cite{[1]} will greatly help increase the productivity
+of the project.
+Journals have shown that a sound sensor and a smart
+camera are primary necessities for the system. Along
+with this according to the paper by N.Hemavathi the
+robot is built with a DC motor and transistors.
+The movement of the robot is handled by multiple
+logics operated on the transistors. These transistors
+allow the motion of the DC motor in the desired
+direction\cite{[6]}. Bluetooth technology has also been
+used in the process for serial communication with
+the robot\cite{[7]}. In another paper, the authors have
+mentioned the use of a special GPS for location tracking.
+Object detection algorithms have been designed for the
+robot to understand the route\cite{[8]}.
+Technology is advancing at a rapid pace nowadays. These
+shifts are also visible in the robotics industry. As a
+result, the system suggested in the given papers reflects
+the current state of the field. The main objective of this
+is to offer ladies safety at night. Using a credit-card-sized
+Raspberry Pi and an open CV, the author of this paper,
+created a night patrolling robot (computer vision).\cite{[11]}
+To detect the face, the suggested system employs a Raspberry
+Pi camera. Anomaly detection is done using deep learning
+technologies\cite{[13]}. As a result, the image is recorded using
+the pi camera and sent to the raspberry pi for face and
+human detection using OpenCV.  The accuracy of this
+approach is around 83 percent\cite{[11]}.The sensors used are
+IR sensors and sound sensors. According to this project,
+the entire territory monitoring is completed using a night
+vision camera and a programmed framework. When a sound is
+detected, the robot will follow a certain path to that
+space, capture the region, and send the picture to the
+user via IoT. Behind this project is a pre-programmed
+dazzling path for night vision viewing.\cite{[12]}
+The proposed system focuses on the security of the place
+where it is implemented. It is specially designed to
+carry out the security assessment function at the night
+time when it will be dark all over the place. It is equipped
+with a night vision camera which will be used to capture
+the pictures of the spot if any suspicious activity takes
+place. It moves on a predestined path, and it moves in
+the direction of sound. It is also equipped with human
+face recognition technology. This system uses the LAN
+protocol of IOT, and it sends the recorded images to the
+responsible authority so that they can take any actions
+if necessary. It system uses a microcontroller, night
+vision cameras, sound sensors, Infrared sensor and Motor
+drivers.\cite{[15]}
+This system is built to ensure women safety in remote
+regions and public places. IOT gecko is used for
+receiving transmitted snapshots and displaying them to
+people with alert sounds. This system consists of a
+combination of 2 HD cameras to monitor the environment
+sharply and closely. The hardware used in this system are
+HD infrared camera with night vision, Sound sensor,
+DC motor, IR Sensor, Ultrasonic sensor, LCD display, and
+a motor driver.\cite{[16]}\\
+
+Facial recognition is an important aspect in terms of the
+proposed system. This serves a greater importance in order
+to assess the threat and act accordingly.\cite{[2]} Facial
+recognition is a subset of the highly expanding computer
+vision field. This field has been overly dominated by the
+areas of Machine Learning and Deep Learning from the very
+beginning\cite{[5]}. Taking into consideration the scope of
+lighting in a night patrolling robot it is safe to assume
+that the best approach would be to perform IR recognition\cite{[2]}.
+Thus according to \cite{[2]} the best possible way of training
+the TIR based facial recognition is to use a Deep CNN
+Classifier with substantial training data. The losses
+given by equation 1
+\begin{equation}
+	\sum_i^N[\| \int (x_i^a) - \int (x_i^p)\|_2^2 - \| \int (x_i^a) - \int (x_i^n)\|_2^2 + \alpha]
+\end{equation}
+Are the minimum and give the best possible output with a
+method called triple loss learning.\cite{[2]} There are
+three main steps for facial recognition and tracking in
+real time\cite{[4]}. The First Step is Detection of Faces to track
+them, the next being recognition of facial features, which is determined
+using equation 2
+\begin{equation}
+	\begin{aligned}
+		\Omega^m_{[w, h]} =
+		 & \begin{pmatrix}
+			[\frac{m}{w}] + [\frac{m - 1}{w}] + \ldots + [\frac{w + 1}{w}] + 1
+		\end{pmatrix}
+		\cdot                        \\
+		 & \begin{pmatrix}
+			[\frac{m}{h}] + [\frac{m - 1}{h}] + \ldots + [\frac{h + 1}{h} + 1]
+		\end{pmatrix}
+	\end{aligned}
+\end{equation}
+The last step is to begin tracking the face in real time.
+
+Object detection bases the image processing. The image is
+seen in a digital form of the same. Process of Image
+processing, object detection majorly involves object recognition,
+object localisation, image classification. According to a
+survey for different processes for image processing,
+multiple techniques have been identified which present
+different accuracies for the same. The survey paper implies
+that numerous techniques have separate sets of specifications.
+For example, Deep CNN shows 85\% sensitivity especially for
+medical cases, face recognition vendor test (FRVT) makes
+identifying a male easier than female. According to this paper,
+Deep neural networks and CNN which are AI based techniques are
+recommended for object detection \cite{[9]}.  Furthermore, another
+paper by Sandeep Kumar, has emphasized on the kind of image
+processed. It mentions the use of Convoluted neural networks,
+for static images with static background. After preprocessing,
+and feature extraction, single neural networks are integrated
+for image recognition and processing\cite{[10]}.
+
+The author of this work presents several innovative models for
+all stages of a face recognition system. To perform the process
+of face detection efficiently, the authors suggest a hybrid
+model integrating AdaBoost and Artificial Neural Network (ABANN).
+The labeled faces detected by ABANN will then be aligned using
+the Active Shape Model and Multi-Layer Perception in the next
+stage. The author proposes a novel 2D local texture model based
+on Multi-Layer Perceptron in this alignment step. The model's
+classifier enhances the accuracy and robustness of local
+searching on faces with ambiguous outlines and expression
+variation. The authors of the research offer a way for boosting
+efficiency in the feature extraction step by combining two
+methods: geometric feature-based method and Independent
+Component Analysis method.\cite{[14]}
+
+\section{Methodology}
+
+\section{Results and Discussion}
+
+\section{Conclusion}
+
+\pagebreak
+
+\bibliographystyle{IEEEtran}
+\bibliography{references.bib}
+
+\end{document}
