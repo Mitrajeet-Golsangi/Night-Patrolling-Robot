@@ -1,72 +1,47 @@
-import websockets
 import asyncio
+import http
+import signal
+import sys
+import time
 
-import mediapipe as mp
-import cv2, struct, pickle, base64
+import websockets
 
-mp_face_detection = mp.solutions.face_detection
-mp_draw = mp.solutions.drawing_utils
 
-face_detection = mp_face_detection.FaceDetection(min_detection_confidence=0.7)
+async def slow_echo(websocket):
+    async for message in websocket:
+        # Block the event loop! This allows saturating a single asyncio
+        # process without opening an impractical number of connections.
+        time.sleep(0.1)  # 100ms
+        await websocket.send(message)
 
-port = 5000
 
-def draw_bbox(res, frame):
-    for id, det in enumerate(res.detections):
-        # mp_draw.draw_detection(frame, det)  #? Direct Method for drawing bounding box and feature points
+async def health_check(path, request_headers):
+    if path == "/healthz":
+        return http.HTTPStatus.OK, [], b"OK\n"
+    if path == "/inemuri":
+        loop = asyncio.get_running_loop()
+        loop.call_later(1, time.sleep, 10)
+        return http.HTTPStatus.OK, [], b"Sleeping for 10s\n"
+    if path == "/seppuku":
+        loop = asyncio.get_running_loop()
+        loop.call_later(1, sys.exit, 69)
+        return http.HTTPStatus.OK, [], b"Terminating\n"
 
-        coord = det.location_data.relative_bounding_box
-        ih, iw, ic = frame.shape
-        
-        bbox =  int(coord.xmin * iw), int(coord.ymin * ih), \
-                int(coord.width * iw), int(coord.height * ih)
-        
-        cv2.rectangle(frame, bbox, (255, 0, 255), 2)
-        cv2.putText(
-            frame,
-            f'{int(det.score[0]*100)}%',
-            (bbox[0], bbox[1] - 20),
-            cv2.FONT_HERSHEY_PLAIN,
-            2,
-            (0, 255, 0),
-            2
-        )
 
-print("Started server on port : ", port)
+async def main():
+    # Set the stop condition when receiving SIGTERM.
+    loop = asyncio.get_running_loop()
+    stop = loop.create_future()
+    loop.add_signal_handler(signal.SIGTERM, stop.set_result, None)
 
-async def transmit(websocket, path):
-    print("Client Connected !")
-    try :
-        cap = cv2.VideoCapture(0)
+    async with websockets.serve(
+        slow_echo,
+        host="",
+        port=80,
+        process_request=health_check,
+    ):
+        await stop
 
-        while cap.isOpened():
-            img, frame = cap.read()
-            
-            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            
-            res = face_detection.process(rgb)
-            
-            if res.detections:
-                draw_bbox(res, frame)
-            
-            a = pickle.dumps(frame)
-            
-            msg = struct.pack("Q", len(a)) + a
-            await websocket.send(msg)
-            
-            # cv2.imshow("Transimission", frame)
-            
-            # if cv2.waitKey(1) & 0xFF == ord('q'):
-            #     break
-        
-    except websockets.connection.ConnectionClosed as e:
-        print("Client Disconnected !")
-        cap.release()
-    # except:
-    #     print("Someting went Wrong !")
-start_server = websockets.serve(transmit, port=port)
 
-asyncio.get_event_loop().run_until_complete(start_server)
-asyncio.get_event_loop().run_forever()
-
-cap.release()
+if __name__ == "__main__":
+    asyncio.run(main())

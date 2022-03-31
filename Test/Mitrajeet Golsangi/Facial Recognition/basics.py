@@ -1,4 +1,4 @@
-import cv2
+import cv2, base64
 import mediapipe as mp
 
 def draw_bbox(res, frame):
@@ -43,11 +43,12 @@ def get_frames():
             if res.detections:
                 draw_bbox(res, frame)
             
-            ret, buffer = cv2.imencode('.jpg', frame)
-            frame = buffer.tobytes()
+            encoded = cv2.imencode('.jpg', frame)[1]
+
+            data = str(base64.b64encode(encoded))
+            data = data[2:len(data)-1]
             
-            yield(b'--frame\r\n'
-                  b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
+            yield data
             
     cap.release()
     cv2.destroyAllWindows()

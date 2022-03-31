@@ -19,10 +19,15 @@ def home():
 def video():
     return Response(get_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-@socket.on('vid_sock')
+@socketio.on('connect')
+def connection_established():
+    print("Client Connected !")
+
+@socketio.on('vid_sock')
 def handle_stream(vid):
-    socket.send(Response(get_frames(), mimetype='multipart/x-mixed-replace; boundary=frame'))    
+    print("Client Connected !")
+    socketio.send(get_frames())
 
 if __name__ == '__main__':
     
-    socketio.run(app, debug = True)
+    socketio.run(app, debug = True, host="192.168.29.155")

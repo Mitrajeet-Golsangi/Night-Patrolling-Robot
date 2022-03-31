@@ -62,7 +62,7 @@ async def transmit(websocket, path):
             
             # if cv2.waitKey(1) & 0xFF == ord('q'):
             #     break
-        
+        cap.release()
     except websockets.connection.ConnectionClosed as e:
         print("Client Disconnected !")
         cap.release()

@@ -13,8 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1
+  flutter_local_notifications: ^9.4.0
   flutter_localizations:
     sdk: flutter
+  flutter_spinkit: ^5.1.0
   web_socket_channel: ^2.1.0
 
 dev_dependencies:
