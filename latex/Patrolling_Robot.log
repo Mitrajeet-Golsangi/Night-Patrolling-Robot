@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2022.2.15)  8 MAR 2022 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2022.5.2)  2 MAY 2022 13:07
 entering extended mode
-**"d:/VIT Projects/Second Year/2nd Semester/EDI/latex/Night_Patrolling_Robot.tex"
-(d:/VIT Projects/Second Year/2nd Semester/EDI/latex/Night_Patrolling_Robot.tex
+**"d:/VIT Projects/Second Year/2nd Semester/EDI/latex/Patrolling_Robot.tex"
+(d:/VIT Projects/Second Year/2nd Semester/EDI/latex/Patrolling_Robot.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -15,7 +15,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountC=\count181
 \@IEEEtrantmptoksA=\toks15
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -99,25 +99,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen161
 \c@IEEEbiography=\count193
 \@IEEEtranrubishbin=\box48
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen162
-)) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen163
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count194
@@ -157,20 +157,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+)) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
@@ -180,26 +180,26 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \c@ALC@depth=\count275
 \ALC@tlm=\skip53
 \algorithmicindent=\skip54
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen171
 \Gin@req@width=\dimen172
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -212,43 +212,43 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/nowidow\nowidow.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/nowidow\nowidow.sty
 Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
 Package: nowidow 
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+))) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language79
 LaTeX Info: Redefining \_ on input line 43.
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box51
-) (Night_Patrolling_Robot.aux)
-\openout1 = `Night_Patrolling_Robot.aux'.
+) (Patrolling_Robot.aux)
+\openout1 = `Patrolling_Robot.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 -- Lines per column: 58 (exact).
-(C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+(C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count277
 \scratchdimen=\dimen173
@@ -261,17 +261,17 @@ LaTeX Font Info:    ... okay on input line 16.
 \MPnumerator=\count281
 \makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks23
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+)) (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -282,83 +282,124 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 42.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
- (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+ (C:\Users\hp\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 55--64
-
+Underfull \hbox (badness 3503) in paragraph at lines 62--64
+[]\OT1/ptm/b/it/9 Index Terms\OT1/ptm/b/n/9 ---security, IoT, fa-cial de-tec-tion, pa-trolling,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--137
-
- []
-
-[1{C:/Users/mitra/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[1{C:/Users/hp/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 7832) in paragraph at lines 174--192
+Underfull \hbox (badness 7832) in paragraph at lines 221--239
 []\OT1/ptm/m/n/10 Object de-tec-tion bases the im-age pro-cess-ing. The
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 174--192
+Underfull \hbox (badness 1466) in paragraph at lines 221--239
 \OT1/ptm/m/n/10 im-age is seen in a dig-i-tal form of the same. Pro-cess
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 174--192
+Underfull \hbox (badness 2717) in paragraph at lines 221--239
 \OT1/ptm/m/n/10 of Im-age pro-cess-ing, ob-ject de-tec-tion ma-jorly in-volves
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 174--192
+Underfull \hbox (badness 1552) in paragraph at lines 221--239
 \OT1/ptm/m/n/10 im-plies that nu-mer-ous tech-niques have sep-a-rate sets of
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 174--192
+Underfull \hbox (badness 2990) in paragraph at lines 221--239
 \OT1/ptm/m/n/10 (FRVT) makes iden-ti-fy-ing a male eas-ier than fe-male.
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 193--207
+Underfull \hbox (badness 1838) in paragraph at lines 240--254
 \OT1/ptm/m/n/10 a novel 2D lo-cal tex-ture model based on Multi-Layer
  []
 
-(Night_Patrolling_Robot.bbl
-Underfull \hbox (badness 1577) in paragraph at lines 36--40
+[2]
+Underfull \hbox (badness 2035) in paragraph at lines 290--299
+[]\OT1/ptm/m/n/10 The Haar Cas-cade tech-nique is an Ob-ject De-tec-tion
+ []
+
+<./img/HaarCascadeWorking.jpeg.png, id=20, 1204.5pt x 788.19469pt>
+File: ./img/HaarCascadeWorking.jpeg.png Graphic file (type png)
+<use ./img/HaarCascadeWorking.jpeg.png>
+Package pdftex.def Info: ./img/HaarCascadeWorking.jpeg.png  used on input line 302.
+(pdftex.def)             Requested size: 252.0pt x 164.90036pt.
+
+Underfull \hbox (badness 6978) in paragraph at lines 324--329
+[]\OT1/ptm/m/n/10 Another pop-u-lar frame-work for fa-cial de-tec-tion is
+ []
+
+<./img/MediaPipeImplementation.png, id=22, 447.47176pt x 445.665pt>
+File: ./img/MediaPipeImplementation.png Graphic file (type png)
+<use ./img/MediaPipeImplementation.png>
+Package pdftex.def Info: ./img/MediaPipeImplementation.png  used on input line 332.
+(pdftex.def)             Requested size: 252.0pt x 250.97835pt.
+<./img/flutter_implementation.png, id=23, 594.22pt x 624.3325pt>
+File: ./img/flutter_implementation.png Graphic file (type png)
+<use ./img/flutter_implementation.png>
+Package pdftex.def Info: ./img/flutter_implementation.png  used on input line 383.
+(pdftex.def)             Requested size: 252.0pt x 264.77097pt.
+
+Underfull \hbox (badness 1831) in paragraph at lines 374--401
+\OT1/ptm/m/n/10 and the sec-ond be-ing the fa-cial de-tec-tion. The Flut-ter
+ []
+
+[3 <./img/HaarCascadeWorking.jpeg.png> <./img/MediaPipeImplementation.png>]
+<./img/HaarFlowchart.dio.png, id=28, 875.27pt x 1328.965pt>
+File: ./img/HaarFlowchart.dio.png Graphic file (type png)
+<use ./img/HaarFlowchart.dio.png>
+Package pdftex.def Info: ./img/HaarFlowchart.dio.png  used on input line 404.
+(pdftex.def)             Requested size: 252.0pt x 382.61185pt.
+ (Patrolling_Robot.bbl
+Underfull \hbox (badness 1622) in paragraph at lines 30--35
+\OT1/ptm/m/n/8 B. A. Briesacher, and D. Kim, ``As-so-ci-a-tions of state-level and
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 48--52
 []\OT1/ptm/m/n/8 N.Hemavathy, Arun.K, Karthick.R, Srikanth.A.P, and Venkatesh.S,
  []
 
 
-Underfull \hbox (badness 3168) in paragraph at lines 36--40
+Underfull \hbox (badness 3168) in paragraph at lines 48--52
 \OT1/ptm/m/n/8 tech-nol-ogy,'' \OT1/ptm/m/it/8 In-ter-na-tional Re-search Jour-nal of En-gi-neer-ing and
  []
 
-) [2] (Night_Patrolling_Robot.aux) ) 
+[4 <./img/flutter_implementation.png> <./img/HaarFlowchart.dio.png>]
+Underfull \hbox (badness 3058) in paragraph at lines 134--138
+\OT1/ptm/m/n/8 A frame-work for build-ing per-cep-tion pipelines,'' \OT1/ptm/m/it/8 arXiv preprint
+ []
+
+) [5
+
+] (Patrolling_Robot.aux) ) 
 Here is how much of TeX's memory you used:
- 4504 strings out of 479334
- 68452 string characters out of 2857084
- 377823 words of memory out of 3000000
- 21883 multiletter control sequences out of 15000+200000
- 443152 words of font info for 110 fonts, out of 3000000 for 9000
+ 4538 strings out of 479334
+ 68798 string characters out of 2858510
+ 377899 words of memory out of 3000000
+ 21913 multiletter control sequences out of 15000+200000
+ 444288 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,78p,295b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Night_Patrolling_Robot.pdf (2 pages, 133295 bytes).
+ 72i,13n,78p,289b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/hp/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Patrolling_Robot.pdf (5 pages, 308590 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

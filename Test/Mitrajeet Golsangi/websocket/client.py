@@ -32,7 +32,7 @@ async def listen():
                 
                 frame_data = data[:msg_size]
                 data = data[msg_size:]
-                frame = pickle.loads(frame_data)
+                frame = pickle.loads(base64.b64decode(frame_data))
                     
                 cv2.imshow("Received", frame)            
                 

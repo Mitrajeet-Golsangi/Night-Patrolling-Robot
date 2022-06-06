@@ -21,6 +21,18 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{[17]}
+S.~Hameed and B.~Bhattacharya, ``Scarred for life: Thoughts on legal
+  perspectives of acid attacks in selected countries with a focus on india,''
+  \emph{Journal of International Women's Studies}, vol.~23, no.~1, p.~12, 2022.
+
+\bibitem{[18]}
+K.~Gero, F.~Noubary, I.~Kawachi, C.~F. Baum, R.~B. Wallace, B.~A. Briesacher,
+  and D.~Kim, ``Associations of state-level and county-level hate crimes with
+  individual-level cardiovascular risk factors in a prospective cohort study of
+  middle-aged americans: the national longitudinal survey of youths 1979,''
+  \emph{BMJ open}, vol.~12, no.~1, p. e054360, 2022.
+
 \bibitem{[1]}
 P.~Manasa, K.~S. Harsha, D.~D. M, K.~R, and N.~N. O, ``Night vision patrolling
   robot,'' \emph{Journal of Xi'an University of Architecture \& Technology},
@@ -97,5 +109,31 @@ S.~Kumar, A.~Balyan, and M.~Chawla, ``Object detection and recognition in
 \bibitem{[14]}
 T.~H. Le, ``Applying artificial neural networks for face recognition,''
   \emph{Advances in Artificial Neural Systems}, 2011.
+
+\bibitem{kaur2021face}
+H.~Kaur and A.~Mirza, ``Face detection using haar cascades classifier,''
+  \emph{ICIDSSD 2020}, p. 158, 2021.
+
+\bibitem{lu2021face}
+D.~Lu and L.~Yan, ``Face detection and recognition algorithm in digital image
+  based on computer vision sensor,'' \emph{Journal of Sensors}, vol. 2021,
+  2021.
+
+\bibitem{hasan2021human}
+M.~K. Hasan, M.~Ahsan, S.~Newaz, G.~M. Lee \emph{et~al.}, ``Human face
+  detection techniques: A comprehensive review and future research
+  directions,'' \emph{Electronics}, vol.~10, no.~19, p. 2354, 2021.
+
+\bibitem{viola2001rapid}
+P.~Viola and M.~Jones, ``Rapid object detection using a boosted cascade of
+  simple features,'' in \emph{Proceedings of the 2001 IEEE computer society
+  conference on computer vision and pattern recognition. CVPR 2001},
+  vol.~1.\hskip 1em plus 0.5em minus 0.4em\relax Ieee, 2001, pp. I--I.
+
+\bibitem{mediapipe}
+C.~Lugaresi, J.~Tang, H.~Nash, C.~McClanahan, E.~Uboweja, M.~Hays, F.~Zhang,
+  C.-L. Chang, M.~G. Yong, J.~Lee \emph{et~al.}, ``Mediapipe: A framework for
+  building perception pipelines,'' \emph{arXiv preprint arXiv:1906.08172},
+  2019.
 
 \end{thebibliography}

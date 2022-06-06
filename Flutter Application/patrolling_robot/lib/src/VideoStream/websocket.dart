@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:web_socket_channel/web_socket_channel.dart';
 import 'package:web_socket_channel/status.dart' as status;
 
@@ -5,7 +7,7 @@ class WebSocket {
   // ------------------------- Members ------------------------- //
   late String url;
   WebSocketChannel? _channel;
-  static bool _isConnected = false;
+  StreamController<bool> streamController = StreamController<bool>.broadcast();
 
   // ---------------------- Getter Setters --------------------- //
   String get getUrl {
@@ -14,10 +16,6 @@ class WebSocket {
 
   set setUrl(String url) {
     this.url = url;
-  }
-
-  bool get connectionState {
-    return _isConnected;
   }
 
   Stream<dynamic> get stream {
@@ -36,14 +34,12 @@ class WebSocket {
   /// Connects the current application to a websocket
   void connect() {
     _channel = WebSocketChannel.connect(Uri.parse(url));
-    _isConnected = true;
   }
 
   /// Disconnects the current application from a websocket
-  void disconnect() {
+  void disconnect() async {
     if (_channel != null) {
-      _channel!.sink.close(status.goingAway);
-      _isConnected = false;
+      await _channel!.sink.close(status.goingAway);
     }
   }
 }

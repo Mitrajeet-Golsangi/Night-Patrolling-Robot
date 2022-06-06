@@ -8,13 +8,29 @@ import 'package:patrolling_robot/src/styles/styles.dart';
 
 class VideoStream extends StatefulWidget {
   const VideoStream({Key? key}) : super(key: key);
+  static const route = "/live_stream";
 
   @override
   State<VideoStream> createState() => _VideoStreamState();
 }
 
 class _VideoStreamState extends State<VideoStream> {
-  final WebSocket _socket = WebSocket(videoWebsocketURL);
+  final WebSocket _socket = WebSocket(Constants.videoWebsocketURL);
+  bool _isConnected = false;
+  void connect(BuildContext context) async {
+    _socket.connect();
+    setState(() {
+      _isConnected = true;
+    });
+  }
+
+  void disconnect() {
+    _socket.disconnect();
+    setState(() {
+      _isConnected = false;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,13 +46,13 @@ class _VideoStreamState extends State<VideoStream> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   ElevatedButton(
-                    onPressed: _socket.connect,
-                    style: buttonStyle,
+                    onPressed: () => connect(context),
+                    style: Styles.buttonStyle,
                     child: const Text("Connect"),
                   ),
                   ElevatedButton(
-                    onPressed: _socket.disconnect,
-                    style: buttonStyle,
+                    onPressed: disconnect,
+                    style: Styles.buttonStyle,
                     child: const Text("Disconnect"),
                   ),
                 ],
@@ -44,7 +60,7 @@ class _VideoStreamState extends State<VideoStream> {
               const SizedBox(
                 height: 50.0,
               ),
-              _socket.connectionState
+              _isConnected
                   ? StreamBuilder(
                       stream: _socket.stream,
                       builder: (context, snapshot) {
@@ -65,11 +81,11 @@ class _VideoStreamState extends State<VideoStream> {
                             ),
                           ),
                           gaplessPlayback: true,
+                          excludeFromSemantics: true,
                         );
                       },
                     )
                   : const Text("Initiate Connection")
-              // Image.network("ws://192.168.29.155:5000")
             ],
           ),
         ),

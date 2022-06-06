@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM4",
+    "programmer": "avrisp",
+    "sketch": "hardware\\gyroscope_test\\gyroscope_test.ino"
+}
