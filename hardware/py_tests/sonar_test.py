@@ -8,8 +8,8 @@ It reports changes to the distance sensed.
 """
 # indices into callback data
 DISTANCE_CM = 2
-TRIGGER_PIN = 12
-ECHO_PIN = 13
+TRIGGER_PIN = 3
+ECHO_PIN = 2
 
 
 # A callback function to display the distance
