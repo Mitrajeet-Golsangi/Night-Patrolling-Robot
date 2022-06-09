@@ -34,9 +34,13 @@ while True:
     try:
         sl = board.digital_read(MIC_LEFT)    
         sr = board.digital_read(MIC_RIGHT)
+        sf = board.digital_read(MIC_FWD)
+        sb = board.digital_read(MIC_BWD)
         vl = sl[0]
         vr = sr[0]
-        print(vl,vr)
+        vf = sf[0]
+        vb = sb[0]
+        print(vl,vr,vf,vb)
     except KeyboardInterrupt:
         board.shutdown()
         sys.exit(0)
